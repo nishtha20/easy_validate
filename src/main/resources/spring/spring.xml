@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+	<context:component-scan base-package="fulfillment.support" />
+	<context:annotation-config />
+
+	<bean id="parallelTaskProcessor"
+		class="com.walmart.ecommerce.fulfillment.commons.concurrent.processor.ParallelTaskProcessor">
+		<property name="retryDelay"
+			value="200"></property> <!-- Retry delay in millisec. -->
+	</bean>
+	
+	<bean id="versionValidator" class="fulfillment.support.VersionValidator" />
+	
+	<bean id="taskExecutor"
+		class="com.walmart.ecommerce.fulfillment.commons.concurrent.TaskExecutor">
+
+		<property name="corePoolSize"
+			value="2000" />  <!-- Core pool size. -->
+		<property name="prestartCoreThreads"
+			value="false" /> <!-- True if we want to pre start Core pool. -->
+		<property name="maxPoolSize"
+			value="2000" /> <!-- Max Thread pool size. -->
+		<property name="queueCapacity"
+			value="3000" /> <!-- Queue size. New threads will not be created untill queue is full. -->
+		<property name="keepAliveSeconds"
+			value="60" /> <!-- Queue size. New threads will not be created untill queue is full. --> <!-- kill threads which are idle for keepAliveSeconds. -->
+
+	</bean>
+
+</beans>

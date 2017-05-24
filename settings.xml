@@ -1,0 +1,66 @@
+<version>
+	<components id="NCM">
+		<countries id="US">
+            <url>http://dev-glintful-commons-node.wal-mart.com/fulfillment-node-commons-manager/version.html</url>
+			<url>http://tp123000.wal-mart.com:61091/fulfillment-node-commons-manager/version.html</url>
+			<url>http://tp123001.wal-mart.com:61091/fulfillment-node-commons-manager/version.html</url>
+			<url>http://tp123002.wal-mart.com:61091/fulfillment-node-commons-manager/version.html</url>	
+			<url>http://tp123003.wal-mart.com:61091/fulfillment-node-commons-manager/version.html</url>	
+			<url>http://tp123004.wal-mart.com:61091/fulfillment-node-commons-manager/version.html</url>	
+			<url>http://tp123005.wal-mart.com:61091/fulfillment-node-commons-manager/version.html</url>	
+			<url>http://tp123006.wal-mart.com:61091/fulfillment-node-commons-manager/version.html</url>	
+			<url>http://tp123007.wal-mart.com:61091/fulfillment-node-commons-manager/version.html</url>
+		</countries>
+		<countries id="UK">
+			<url>http://oser200021.uk.wal-mart.com:61081/fulfillment-node-commons-manager/version.html</url>	
+			<url>http://oser200022.uk.wal-mart.com:61081/fulfillment-node-commons-manager/version.html</url>	
+			<url>http://oser200056.uk.wal-mart.com:61081/fulfillment-node-commons-manager/version.html</url>	
+			<url>http://oser200057.uk.wal-mart.com:61081/fulfillment-node-commons-manager/version.html</url>
+			<url>http://oser200058.uk.wal-mart.com:61081/fulfillment-node-commons-manager/version.html</url>	
+			<url>http://oser200059.uk.wal-mart.com:61081/fulfillment-node-commons-manager/version.html</url>
+		</countries>
+	</components>
+	<components id="Node Orchestrator">
+		<countries id="US">
+			<url>http://tp109001.wal-mart.com:61121/fulfillment-node-orchestrator/version.html</url>	
+			<url>http://tp109002.wal-mart.com:61121/fulfillment-node-orchestrator/version.html</url>	
+			<url>http://tp109003.wal-mart.com:61121/fulfillment-node-orchestrator/version.html</url>	
+			<url>http://tp109004.wal-mart.com:61121/fulfillment-node-orchestrator/version.html</url>	
+			<url>http://tp109005.wal-mart.com:61121/fulfillment-node-orchestrator/version.html</url>	
+			<url>http://tp109006.wal-mart.com:61121/fulfillment-node-orchestrator/version.html</url>	
+			<url>http://tp109007.wal-mart.com:61121/fulfillment-node-orchestrator/version.html</url>	
+			<url>http://tp109008.wal-mart.com:61121/fulfillment-node-orchestrator/version.html</url>	
+			<url>http://tp109009.wal-mart.com:61121/fulfillment-node-orchestrator/version.html</url>	
+			<url>http://tp109010.wal-mart.com:61121/fulfillment-node-orchestrator/version.html</url>	
+			<url>http://tp109011.wal-mart.com:61121/fulfillment-node-orchestrator/version.html</url>
+		</countries>
+		<countries id="UK">
+			<url>http://oser200021.uk.wal-mart.com:61091/fulfillment-node-orchestrator/version.html</url>	
+			<url>http://oser200022.uk.wal-mart.com:61091/fulfillment-node-orchestrator/version.html</url>	
+			<url>http://oser200056.uk.wal-mart.com:61091/fulfillment-node-orchestrator/version.html</url>	
+			<url>http://oser200057.uk.wal-mart.com:61091/fulfillment-node-orchestrator/version.html</url>	
+			<url>http://oser200058.uk.wal-mart.com:61091/fulfillment-node-orchestrator/version.html</url>	
+			<url>http://oser200059.uk.wal-mart.com:61091/fulfillment-node-orchestrator/version.html</url>
+		</countries>
+	</components>
+	<components id="Node Admin">
+		<countries id="US">
+			<url>http://tp123000.wal-mart.com:61061/fulfillment-node-admin/version.html</url>	
+			<url>http://tp123001.wal-mart.com:61061/fulfillment-node-admin/version.html</url>	
+			<url>http://tp123002.wal-mart.com:61061/fulfillment-node-admin/version.html</url>	
+			<url>http://tp123003.wal-mart.com:61061/fulfillment-node-admin/version.html</url>	
+			<url>http://tp123004.wal-mart.com:61061/fulfillment-node-admin/version.html</url>	
+			<url>http://tp123005.wal-mart.com:61061/fulfillment-node-admin/version.html</url>	
+			<url>http://tp123006.wal-mart.com:61061/fulfillment-node-admin/version.html</url>	
+			<url>http://tp123007.wal-mart.com:61061/fulfillment-node-admin/version.html</url>
+		</countries>
+		<countries id="UK">
+			<url>http://oser200021.uk.wal-mart.com:61071/fulfillment-node-admin/version.html</url>	
+			<url>http://oser200022.uk.wal-mart.com:61071/fulfillment-node-admin/version.html</url>	
+			<url>http://oser200056.uk.wal-mart.com:61071/fulfillment-node-admin/version.html</url>	
+			<url>http://oser200057.uk.wal-mart.com:61071/fulfillment-node-admin/version.html</url>	
+			<url>http://oser200058.uk.wal-mart.com:61071/fulfillment-node-admin/version.html</url>	
+			<url>http://oser200059.uk.wal-mart.com:61071/fulfillment-node-admin/version.html</url>
+		</countries>
+	</components>
+</version>
